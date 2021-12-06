@@ -19,7 +19,8 @@ public class Fibonacci {
   }
 
   public static Boolean validFibonacci(Integer numb) {
-    
+    List<Integer> fibonacciArray = fibonacci();
+    return fibonacciArray.contains(numb);
   }
 
 }
