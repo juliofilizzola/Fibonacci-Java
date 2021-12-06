@@ -18,4 +18,8 @@ public class Fibonacci {
     return array;
   }
 
+  public static Boolean validFibonacci(Integer numb) {
+    
+  }
+
 }
